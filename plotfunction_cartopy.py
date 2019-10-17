@@ -13,10 +13,6 @@ import plot_params_concentrations
 
 import xarray as xr
 import numpy as np
-import matplotlib.pyplot as plt 
-import cartopy.crs as ccrs
-import cartopy.io.img_tiles as cimgt
-import cartopy.feature as cfeature
 
 # Nacitanie vseobecnych dat z externeho skriptu:
 crsLCC = plot_params_concentrations.crsLCC
