@@ -196,7 +196,7 @@ def plot_cartopy_cont (proj, C, spc, figtitle, amsx, amsy, amsname, outfile, asp
 def plot_cartopy_rast (proj, C, spc, figtitle, amsx, amsy, amsname, outfile, aspect):
     '''
     Funkcia na vykreslovanie rastra xarray, CONTOURS Parametre:
-    C - geodataframe s mriezkou a hodnotami na zobrazenie v stlpci 'col'
+    C - xarray s mriezkou a hodnotami na zobrazenie v stlpci 'col'
     unit - string s jednotkami 
     figtitle - nazov mapy ktory chceme zobrazit
     ams - tuple alebo list s x a y suradnicou stanice ktoru chceme zobrazit
